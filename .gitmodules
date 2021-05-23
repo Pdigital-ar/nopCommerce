@@ -7,3 +7,6 @@
 [submodule "src/Presentation/TryFlow"]
 	path = src/Presentation/TryFlow
 	url = https://github.com/Pdigital-ar/Nop.TryFlow.git
+[submodule "src/Plugins/Nop.Plugin.Payments.PdMePago"]
+	path = src/Plugins/Nop.Plugin.Payments.PdMePago
+	url = https://github.com/Pdigital-ar/Nop.Plugin.Payments.PdMePago.git
