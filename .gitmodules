@@ -13,3 +13,6 @@
 [submodule "src/Presentation/TryFlow"]
 	path = src/Presentation/TryFlow
 	url = https://github.com/Pdigital-ar/Nop.TryFlow.git
+[submodule "src/Plugins/Nop.Plugin.Payments.CashOnDelivery"]
+	path = src/Plugins/Nop.Plugin.Payments.CashOnDelivery
+	url = https://github.com/nopSolutions/cashondelivery-plugin-for-nopcommerce.git
