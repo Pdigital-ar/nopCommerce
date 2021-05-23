@@ -4,9 +4,6 @@
 [submodule "src/Presentation/Nop.Web/Themes/Bohemia"]
 	path = src/Presentation/Nop.Web/Themes/Bohemia
 	url = https://github.com/Pdigital-ar/Nop.Theme.Bohemia.git
-[submodule "src/Plugins/Nop.Plugin.Payments.MePago"]
-	path = src/Plugins/Nop.Plugin.Payments.MePago
-	url = https://github.com/Pdigital-ar/Nop.Plugin.Payments.MePago.git
 [submodule "src/Presentation/TryFlow"]
 	path = src/Presentation/TryFlow
 	url = https://github.com/Pdigital-ar/Nop.TryFlow.git
