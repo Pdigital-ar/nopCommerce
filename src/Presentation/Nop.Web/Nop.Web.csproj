@@ -37,6 +37,8 @@
     <None Remove="Plugins\**;Themes\**" />
 
     <Content Include="Plugins\bin\placeholder.txt" CopyToPublishDirectory="PreserveNewest" />
+
+    <Content Include="Themes\PdBohemia\Views\Shared\Components\Footer\Default.cshtml" />
     <None Include="Plugins\**" CopyToPublishDirectory="PreserveNewest" Exclude="Plugins\**\runtimes\**;Plugins\**\ref\**;Plugins\**\*.pdb" />
 
     <Content Include="Themes\**" CopyToPublishDirectory="PreserveNewest" Exclude="Themes\**\*.config;Themes\**\*.cshtml;Themes\**\*.json" />
@@ -44,6 +46,48 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <Content Remove="Themes\PdBohemia\Content\VideoHomepageText.html" />
+    <None Remove="Themes\Bohemia\Content\css\blackshop.css" />
+    <None Remove="Themes\Bohemia\Content\css\blackshop.rtl.css" />
+    <None Remove="Themes\Bohemia\Content\css\linearicons.css" />
+    <None Remove="Themes\Bohemia\Content\css\responsive.css" />
+    <None Remove="Themes\Bohemia\Content\css\responsive.rtl.css" />
+    <None Remove="Themes\Bohemia\Content\font\BlackShopIcon.eot" />
+    <None Remove="Themes\Bohemia\Content\font\BlackShopIcon.svg" />
+    <None Remove="Themes\Bohemia\Content\font\BlackShopIcon.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\BlackShopIcon.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Linearicons.eot" />
+    <None Remove="Themes\Bohemia\Content\font\Linearicons.svg" />
+    <None Remove="Themes\Bohemia\Content\font\Linearicons.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Linearicons.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Bold.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Bold.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Bold.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraBold.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraBold.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraBold.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraLight.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraLight.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-ExtraLight.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Light.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Light.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Light.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Medium.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Medium.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Medium.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Regular.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Regular.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Regular.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-SemiBold.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-SemiBold.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-SemiBold.woff2" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Thin.ttf" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Thin.woff" />
+    <None Remove="Themes\Bohemia\Content\font\Montserrat-Thin.woff2" />
+    <None Remove="Themes\Bohemia\Content\js\slinky.min.js" />
+    <None Remove="Themes\PdBohemia\Content\css\ab-video-styles.css" />
+    <None Remove="Themes\PdBohemia\Content\images\social-floating-whatsapp.png" />
+    <None Remove="Themes\PdBohemia\Views\Shared\Components\Footer\Default.cshtml" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -61,6 +105,16 @@
 
   <ItemGroup>
     <Folder Include="Plugins\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Themes\PdBohemia\Content\images\social-sprite.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Themes\PdBohemia\Views\Shared\Components\Footer\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 
   <!-- This target execute after "Build" target.
