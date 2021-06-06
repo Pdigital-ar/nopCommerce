@@ -10,3 +10,6 @@
 [submodule "src/Plugins/Nop.Plugin.Payments.PdMePago"]
 	path = src/Plugins/Nop.Plugin.Payments.PdMePago
 	url = https://github.com/Pdigital-ar/Nop.Plugin.Payments.PdMePago.git
+[submodule "src/Plugins/Nop.Plugin.Payments.PdPayByAgree"]
+	path = src/Plugins/Nop.Plugin.Payments.PdPayByAgree
+	url = https://github.com/Pdigital-ar/Nop.Plugin.Payments.PdPayByAgree.git
