@@ -1,9 +1,6 @@
 [submodule "src/Presentation/Nop.Web/Themes/MagiaRoja"]
 	path = src/Presentation/Nop.Web/Themes/MagiaRoja
 	url = https://github.com/Pdigital-ar/Nop.Theme.MagiaRoja.git
-[submodule "src/Presentation/Nop.Web/Themes/PdBohemia"]
-	path = src/Presentation/Nop.Web/Themes/PdBohemia
-	url = https://github.com/Pdigital-ar/Nop.Theme.PdBohemia.git
 [submodule "src/Presentation/TryFlow"]
 	path = src/Presentation/TryFlow
 	url = https://github.com/Pdigital-ar/Nop.TryFlow.git
