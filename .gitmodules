@@ -7,3 +7,6 @@
 [submodule "src/Plugins/Nop.Plugin.Payments.PdPayByAgree"]
 	path = src/Plugins/Nop.Plugin.Payments.PdPayByAgree
 	url = https://github.com/Pdigital-ar/Nop.Plugin.Payments.PdPayByAgree.git
+[submodule "src/Presentation/Nop.Web/Themes/PdBohemia"]
+	path = src/Presentation/Nop.Web/Themes/PdBohemia
+	url = https://github.com/Pdigital-ar/Nop.Theme.PdBohemia.git
