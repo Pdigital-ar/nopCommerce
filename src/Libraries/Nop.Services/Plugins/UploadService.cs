@@ -124,7 +124,8 @@ namespace Nop.Services.Plugins
 
                     //or whether a theme is upload 
                     if (isThemeDescriptor)
-                        descriptor = _themeProvider.GetThemeDescriptorFromText(reader.ReadToEnd());
+                        //descriptor = _themeProvider.GetThemeDescriptorFromText(reader.ReadToEnd());
+                        descriptor = JsonConvert.DeserializeObject<ThemeDescriptor>(reader.ReadToEnd());
 
                     break;
                 }
